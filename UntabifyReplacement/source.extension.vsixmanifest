@@ -3,7 +3,7 @@
     <Identifier Id="UntabifyReplacement.CMcG.6897f9b0-a95a-4e02-88d5-46484a59ac9e">
         <Name>Untabify Replacement</Name>
         <Author>Chris McGrath</Author>
-        <Version>2.0</Version>
+        <Version>3.0</Version>
         <Description xml:space="preserve">Replaces the Subpar Untabify in visual studio with one that replaces all tabs in the selected lines, not just those at the beginning.</Description>
         <Locale>1033</Locale>
         <License>license.txt</License>
@@ -15,6 +15,11 @@
                 <Edition>Pro</Edition>
             </VisualStudio>
             <VisualStudio Version="11.0">
+                <Edition>Ultimate</Edition>
+                <Edition>Premium</Edition>
+                <Edition>Pro</Edition>
+            </VisualStudio>
+            <VisualStudio Version="12.0">
                 <Edition>Ultimate</Edition>
                 <Edition>Premium</Edition>
                 <Edition>Pro</Edition>
