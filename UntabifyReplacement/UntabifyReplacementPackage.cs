@@ -12,7 +12,7 @@ using CMcG.UntabifyReplacement;
 
 namespace CMcG.UntabifyReplacement
 {
-    [InstalledProductRegistration("#110", "#112", "4.0")]
+    [InstalledProductRegistration("#110", "#112", "1.0")]
     [Guid(GuidList.guidUntabifyReplacementPkgString)]
     public class UntabifyReplacementPackage : Package
     {

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="UntabifyReplacement.CMcG.6897f9b0-a95a-4e02-88d5-46484a59ac9e" Version="5.0" Language="en-US" Publisher="Chris McGrath" />
+        <Identity Id="UntabifyReplacement.CMcG.6897f9b0-a95a-4e02-88d5-46484a59ac9e" Version="1.0" Language="en-US" Publisher="Chris McGrath" />
         <DisplayName>Untabify Replacement</DisplayName>
         <Description xml:space="preserve">Replaces the Subpar Untabify in Visual Studio with one that replaces all tabs in the selected lines, not just those at the beginning.</Description>
         <MoreInfo>https://visualstudiogallery.msdn.microsoft.com/cc562125-6235-4082-b670-e0ed496b18a4</MoreInfo>
