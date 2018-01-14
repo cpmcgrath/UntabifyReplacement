@@ -33,10 +33,7 @@ namespace CMcG.UntabifyReplacement
             return VSConstants.S_OK;
         }
 
-        public virtual bool CanExecute(uint cCmds)
-        {
-            return true;
-        }
+        public virtual bool CanExecute(uint cCmds) => true;
 
         public abstract void Execute(uint nCmdID);
 
