@@ -2,7 +2,6 @@ using System;
 using System.Linq;
 using Microsoft.VisualBasic;
 using Microsoft.VisualStudio.Text.Editor;
-using UntabifyReplacement;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.Text;
 
@@ -17,16 +16,9 @@ namespace CMcG.UntabifyReplacement
             m_view = view;
         }
 
-        static readonly Guid UNTABIFY_GUID = new Guid("1496a755-94de-11d0-8c3f-00c04fc2aae2");
-        protected override Guid CommandGuid
-        {
-            get { return UNTABIFY_GUID; }
-        }
+        protected override Guid CommandGuid { get; } = new Guid("1496a755-94de-11d0-8c3f-00c04fc2aae2");
 
-        protected override uint CommandId
-        {
-            get { return 46; }
-        }
+        protected override uint CommandId => 46;
 
         public override void Execute(uint nCmdID)
         {

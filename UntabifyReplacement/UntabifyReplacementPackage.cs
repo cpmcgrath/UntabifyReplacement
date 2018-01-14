@@ -7,7 +7,7 @@ using Microsoft.VisualStudio;
 using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.VisualStudio.OLE.Interop;
 using Microsoft.VisualStudio.Shell;
-using UntabifyReplacement;
+using CMcG.UntabifyReplacement;
 
 
 namespace CMcG.UntabifyReplacement

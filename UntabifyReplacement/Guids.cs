@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace UntabifyReplacement
+namespace CMcG.UntabifyReplacement
 {
     static class GuidList
     {
