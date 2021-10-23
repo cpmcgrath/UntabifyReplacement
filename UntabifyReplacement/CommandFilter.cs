@@ -14,6 +14,7 @@ namespace CMcG.UntabifyReplacement
 
         public int Exec(ref Guid pguidCmdGroup, uint nCmdID, uint nCmdexecopt, IntPtr pvaIn, IntPtr pvaOut)
         {
+            Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
             if (pguidCmdGroup != CommandGuid || nCmdID != CommandId)
                 return Next.Exec(ref pguidCmdGroup, nCmdID, nCmdexecopt, pvaIn, pvaOut);
 
@@ -23,6 +24,7 @@ namespace CMcG.UntabifyReplacement
 
         public int QueryStatus(ref Guid pguidCmdGroup, uint cCmds, OLECMD[] prgCmds, IntPtr pCmdText)
         {
+            Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
             if (pguidCmdGroup != CommandGuid || cCmds != CommandId)
                 return Next.QueryStatus(ref pguidCmdGroup, cCmds, prgCmds, pCmdText);
 

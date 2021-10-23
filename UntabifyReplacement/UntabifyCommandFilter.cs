@@ -1,6 +1,5 @@
 using System;
 using System.Linq;
-using Microsoft.VisualBasic;
 using Microsoft.VisualStudio.Text.Editor;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.Text;

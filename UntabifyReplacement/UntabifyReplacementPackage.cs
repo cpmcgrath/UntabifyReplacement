@@ -14,7 +14,7 @@ namespace CMcG.UntabifyReplacement
 {
     [InstalledProductRegistration("#110", "#112", "1.0")]
     [Guid(GuidList.guidUntabifyReplacementPkgString)]
-    public class UntabifyReplacementPackage : Package
+    public class UntabifyReplacementPackage : AsyncPackage
     {
     }
 }
