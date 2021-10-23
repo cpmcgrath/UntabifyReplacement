@@ -20,6 +20,6 @@ function UpdateVsVersion($project, $version)
             "[InstalledProductRegistration(`"#110`", `"#112`", `"$version`")]"
         
     Replace "./$project/source.extension.vsixmanifest" `
-            "Id=`"UntabifyReplacement.CMcG.6897f9b0-a95a-4e02-88d5-46484a59ac9e`" Version=`"[^`"]+`"" `
-            "Id=`"UntabifyReplacement.CMcG.6897f9b0-a95a-4e02-88d5-46484a59ac9e`" Version=`"$version`""
+            "6897f9b0-a95a-4e02-88d5-46484a59ac9e`" Version=`"[^`"]+`"" `
+            "6897f9b0-a95a-4e02-88d5-46484a59ac9e`" Version=`"$version`""
 }
